@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — JayTech LLC</title>
+  <meta name="description" content="JayTech LLC support information and contact details." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">JT</span>
+        <span class="brand-text">
+          <span class="brand-name">JayTech LLC</span>
+          <span class="brand-tag">Support</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#what-we-do">What we do</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="page-title">Support</h1>
+      <p class="lead muted">
+        For product support or general inquiries, contact us using the email below.
+      </p>
+
+      <div class="card">
+        <div class="contact-row">
+          <span class="k">Support Email</span>
+          <span class="v"><a href="mailto:support@jaytechllc.com">support@jaytechllc.com</a></span>
+        </div>
+        <div class="contact-row">
+          <span class="k">Business</span>
+          <span class="v">JayTech LLC</span>
+        </div>
+        <div class="contact-row">
+          <span class="k">Location</span>
+          <span class="v">United States</span>
+        </div>
+      </div>
+
+      <h2>Helpful details to include</h2>
+      <ul class="bullets muted">
+        <li>App name (if applicable)</li>
+        <li>Device model and operating system version</li>
+        <li>Steps to reproduce the issue</li>
+        <li>Screenshots or screen recordings (if helpful)</li>
+      </ul>
+
+      <p class="small muted">
+        Privacy questions: <a href="mailto:privacy@jaytechllc.com">privacy@jaytechllc.com</a> •
+        Legal: <a href="mailto:legal@jaytechllc.com">legal@jaytechllc.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="small muted">© <span id="year"></span> JayTech LLC. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
