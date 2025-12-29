@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — JayTech LLC</title>
+  <meta name="description" content="JayTech LLC Privacy Policy." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">JT</span>
+        <span class="brand-text">
+          <span class="brand-name">JayTech LLC</span>
+          <span class="brand-tag">Privacy Policy</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container prose">
+      <h1 class="page-title">Privacy Policy</h1>
+      <p class="small muted"><strong>Effective date:</strong> December 29, 2025</p>
+
+      <p>
+        JayTech LLC (“JayTech,” “we,” “us”) respects your privacy. This Privacy Policy describes how we handle information
+        when you visit our website or use our products and services.
+      </p>
+
+      <h2>Information we collect</h2>
+      <p>
+        <strong>Website:</strong> You can browse our website without providing personal information. If you contact us by email,
+        we receive the information you choose to share (for example, your email address and message content).
+      </p>
+      <p>
+        <strong>Apps and services:</strong> Our apps may collect limited information necessary to provide functionality,
+        improve reliability, provide support, and maintain security. Any app-specific data practices are disclosed inside the app
+        and/or in the applicable app store listing.
+      </p>
+
+      <h2>How we use information</h2>
+      <ul class="bullets muted">
+        <li>To respond to support requests and inquiries</li>
+        <li>To operate, maintain, and improve our products</li>
+        <li>To maintain security, prevent abuse, and comply with legal obligations</li>
+      </ul>
+
+      <h2>Sharing</h2>
+      <p>
+        We do not sell your personal information. We may share information with service providers that help us operate our services
+        (for example, hosting or analytics) subject to appropriate protections and only as necessary.
+      </p>
+
+      <h2>Data retention</h2>
+      <p>
+        We retain information only as long as necessary for the purposes described above, unless a longer period is required by law.
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        We use reasonable safeguards designed to protect information. However, no method of transmission or storage is 100% secure.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact: <a href="mailto:privacy@jaytechllc.com">privacy@jaytechllc.com</a>
+      </p>
+
+      <p class="small muted">
+        We may update this policy from time to time. Material changes will be posted on this page.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="small muted">© <span id="year"></span> JayTech LLC. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="support.html">Support</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
